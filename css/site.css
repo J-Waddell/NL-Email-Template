@@ -1,5 +1,30 @@
+:root {
+    --primary-color: #242845;
+    --secondary-color: #F59422;
+    --box-shadow: 0 0 0 0px rgb(255, 255, 255), 0em 0 1em rgba(0, 0, 0, .2);
+    --border-radius: 5px;
+    --body-font: 'Questrial', Arial, sans-serif;
+    --gray: #F5F6F6;
+    --black: #111111;
+    --purple: #374781;
+    --title-font: 'Inter', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: .3em;
+}
+
+.body-img-container {
+    background-color: green;
+    text-align: center;
+}
+
 h1 {
-    color: green;
+    /* color: green; */
 }
 
 footer {
