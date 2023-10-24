@@ -1,13 +1,22 @@
-:root {
-    --primary-color: #242845;
-    --secondary-color: #F59422;
-    --box-shadow: 0 0 0 0px rgb(255, 255, 255), 0em 0 1em rgba(0, 0, 0, .2);
-    --border-radius: 5px;
-    --body-font: 'Questrial', Arial, sans-serif;
-    --gray: #F5F6F6;
-    --black: #111111;
-    --purple: #374781;
-    --title-font: 'Inter', Arial, sans-serif;
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: var(--body-font);
+    margin: auto;;
 }
 
 header {
@@ -19,7 +28,6 @@ header {
 }
 
 .body-img-container {
-    background-color: green;
     text-align: center;
 }
 
@@ -32,4 +40,16 @@ footer {
     position: absolute;
     text-align: center;
     width: 100%;
+}
+
+:root {
+    --primary-color: #242845;
+    --secondary-color: #F59422;
+    --box-shadow: 0 0 0 0px rgb(255, 255, 255), 0em 0 1em rgba(0, 0, 0, .2);
+    --border-radius: 5px;
+    --body-font: 'Questrial', Arial, sans-serif;
+    --gray: #F5F6F6;
+    --black: #111111;
+    --purple: #374781;
+    --title-font: 'Inter', Arial, sans-serif;
 }
