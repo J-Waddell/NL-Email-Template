@@ -21,19 +21,29 @@ body {
 
 header {
     text-align: center;
-    width: 100%;
+    width: 50%;
     background-color: var(--primary-color);
     padding: 10px;
     border-radius: .3em;
+    margin: auto;
+    min-width: 350px;
+}
+
+header img {
+    width: auto;
 }
 
 .body-img-container {
     text-align: center;
 }
 
-h1 {
-    /* color: green; */
+.body-img-container img {
+    width: 500px;
 }
+
+/* h1 {
+    color: green;
+} */
 
 footer {
     bottom: 0;
