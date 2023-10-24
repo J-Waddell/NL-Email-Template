@@ -38,12 +38,22 @@ header img {
 }
 
 .body-img-container img {
-    width: 500px;
+    width: auto;
 }
 
-/* h1 {
-    color: green;
-} */
+.body-mssg-container {
+    text-align: center;
+    margin-top: 50px;
+    color: #111111;
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+h1 {
+    color: var(--purple);
+}
 
 footer {
     bottom: 0;
